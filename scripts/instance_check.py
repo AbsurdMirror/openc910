@@ -9,7 +9,7 @@ def process_file(filename):
 
     # 定义正则表达式模式
     instance_pattern = re.compile(r"&Instance")
-    function_pattern = re.compile(r"\w+\sx_\w+\s\(")
+    function_pattern = re.compile(r"\w+\s+x_\w+\s\(")
     reg_pattern = re.compile(r"\breg\b")
     assign_pattern = re.compile(r"\bassign\b")
     always_pattern = re.compile(r"\balways\b")
@@ -22,11 +22,11 @@ def process_file(filename):
                 
                 # 检查是否包含字符串 "&Instance"
                 if instance_pattern.search(stripped_line):
-                    print(stripped_line)
+                    print("Find Instance: " ,stripped_line)
 
                 # 使用正则表达式匹配函数模式
                 if function_pattern.search(stripped_line):
-                    print(stripped_line)
+                    print("Find Function: " ,stripped_line)
 
                 # 检查是否全词匹配 "reg"
                 if reg_pattern.search(stripped_line):
