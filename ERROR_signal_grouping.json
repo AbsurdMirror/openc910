@@ -1,0 +1,92 @@
+{
+    "name": "*",
+    "addrgen": {
+        "name": "next_todo",
+        "l0_btb_update_vld": {
+            "l0_btb_update_vld": {
+                "name": "l0_btb_update_vld",
+                "end": true
+            }
+        },
+        "l0": {
+            "name": "next_todo",
+            "btb_update_vld_bit": {
+                "btb_update_vld_bit": {
+                    "name": "btb_update_vld_bit",
+                    "end": true
+                }
+            },
+            "btb": {
+                "name": "next_todo",
+                "update_entry": {
+                    "name": "update_entry",
+                    "end": true
+                },
+                "wen": {
+                    "name": "wen",
+                    "end": true
+                }
+            }
+        }
+    },
+    "xxxx": {
+        "name": "next_todo",
+        "btb_en": {
+            "name": "btb_en",
+            "end": true
+        },
+        "icg_en": {
+            "icg_en": {
+                "name": "icg_en",
+                "end": true
+            }
+        },
+        "l0btb_en": {
+            "name": "l0btb_en",
+            "end": true
+        }
+    },
+    "cp0_yy_clk_en": {
+        "name": "cp0_yy_clk_en",
+        "end": true
+    },
+    "cpurst_b": {
+        "name": "cpurst_b",
+        "end": true
+    },
+    "forever_cpuclk": {
+        "name": "forever_cpuclk",
+        "end": true
+    },
+    "ibdp": {
+        "name": "next_todo",
+        "l0_btb_update_cnt_bit": {
+            "l0_btb_update_cnt_bit": {
+                "name": "l0_btb_update_cnt_bit",
+                "end": true
+            }
+        },
+        "l0": {
+            "name": "next_todo",
+            "btb_update_data": {
+                "btb_update_data": {
+                    "name": "btb_update_data",
+                    "end": true
+                }
+            },
+            "btb": {
+                "name": "next_todo",
+                "fifo_update_vld": {
+                    "name": "fifo_update_vld",
+                    "end": true
+                },
+                "update_entry": {
+                    "update_entry": {
+                        "name": "update_entry",
+                        "end": true
+                    }
+                }
+            }
+        }
+    }
+}

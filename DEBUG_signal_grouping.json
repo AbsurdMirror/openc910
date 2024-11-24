@@ -1,0 +1,40 @@
+{
+    "name": "*",
+    "addrgen": {
+        "name": "addrgen_*",
+        "btb_tag": {
+            "name": "addrgen_btb_tag",
+            "end": true
+        },
+        "btb": {
+            "name": "addrgen_btb_*",
+            "index": {
+                "name": "addrgen_btb_index",
+                "end": true
+            },
+            "target_pc": {
+                "name": "addrgen_btb_target_pc",
+                "end": true
+            },
+            "update_vld": {
+                "name": "addrgen_btb_update_vld",
+                "end": true
+            }
+        },
+        "ibctrl_cancel": {
+            "name": "addrgen_ibctrl_cancel",
+            "end": true
+        },
+        "ipdp": {
+            "name": "addrgen_ipdp_*",
+            "chgflw_vl": {
+                "name": "addrgen_ipdp_chgflw_vl",
+                "end": true
+            },
+            "chgflw_vlmul": {
+                "name": "addrgen_ipdp_chgflw_vlmul",
+                "end": true
+            }
+        }
+    }
+}
