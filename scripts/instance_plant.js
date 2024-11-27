@@ -64,7 +64,7 @@ function signalGrouping(signalList) {
 
 function processFileInput(module, filename, signalDict) {
     // Define regular expression pattern
-    const portPattern = /(input|output)\s+(\[.+:.+\]\s+)?\s*(\w+)\s*;/;
+    const portPattern = /(input|output)\s+(\[(.+):(.+)\]\s+)?\s*(\w+)\s*;/;
 
     const signals = {
         input: [],
