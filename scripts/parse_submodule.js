@@ -2,6 +2,9 @@
 const fs = require('fs');
 const SimpleCodeParser = require('./parser');
 
+import { Low } from 'lowdb'
+import { JSONFile } from 'lowdb/node'
+
 const rules = [
     {
         type: 'port',
@@ -35,7 +38,11 @@ const rules = [
 const submodule_parser = new SimpleCodeParser(rules);
 
 function parse_submodule(module, filename, signalDict) {
-    // Define regular expression pattern
+
+    const adapter = new JSONFile<Data>(`${module}.json`, { data: [] })
+
+    // db 设置为数组
+    db.defaults({ data: [] }).write();
 
     const signals = {
         input: [],
@@ -92,7 +99,6 @@ function parse_submodule(module, filename, signalDict) {
 
     return [signals, signalDict, parsed_code];
 }
-
 
 test = parse_submodule(
     'ct_ifu_top',
