@@ -175,7 +175,7 @@ def process_file(filename):
                     inst["signals"].append(match.group(1))
                     if match.group(2) != match.group(1):
                         warning_msg.append(
-                            f"Signal Inst Iifferent Name: (Module {inst['module']}) (Line {i}) {stripped_line}"
+                            f"Signal Inst Different Name: (Module {inst['module']}) (Line {i}) {stripped_line}"
                         )
                     continue
 
