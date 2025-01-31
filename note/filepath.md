@@ -10,3 +10,4 @@
                 - ct_cp0_lpmd [rtl](../C910_RTL_FACTORY\gen_rtl\cp0\rtl\ct_cp0_lpmd.v) [note](./ct_cp0_lpmd.md)
                 - ct_cp0_iui [rtl](../C910_RTL_FACTORY\gen_rtl\cp0\rtl\ct_cp0_iui.v) [note](./ct_cp0_iui.md)
             
+- ct_ifu_btb [rtl](../C910_RTL_FACTORY\gen_rtl\ifu\rtl\ct_ifu_btb.v) [note](./ct_ifu_btb.md)
