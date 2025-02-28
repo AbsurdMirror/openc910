@@ -1,0 +1,4 @@
+{reg:[
+    {bits: 10,  name: 'tag', attr: '{vpc[19:13],vpc[2:0]}', type: 2},
+    {bits: 1,  name: 'valid'},
+]}

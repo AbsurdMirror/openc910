@@ -1,0 +1,4 @@
+{reg:[
+    {bits: 20,  name: 'target', attr: 'last target pc[19:0]', type: 2},
+    {bits: 2,  name: 'way', attr: 'last hit way'},
+]}
