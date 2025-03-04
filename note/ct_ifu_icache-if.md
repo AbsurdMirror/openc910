@@ -40,6 +40,8 @@
 | input    | [33 :0]  | ipb_icache_if_index                | 预取模块接口     |
 | input    | -        | ipb_icache_if_req                  | ^                |
 | input    | -        | ipb_icache_if_req_for_gateclk      | ^                |
+| output   | [28 :0]  | icache_if_ipb_tag_data0            | ^                |
+| output   | [28 :0]  | icache_if_ipb_tag_data1            | ^                |
 | input    | -        | l1_refill_icache_if_wr             | refill接口       | 重填使能信号             |
 | input    | [38 :0]  | l1_refill_icache_if_index          | ^                | 重填的index              |
 | input    | -        | l1_refill_icache_if_fifo           | ^                | 重填way信息              |
@@ -67,5 +69,3 @@
 | output   | [31 :0]  | icache_if_ifdp_precode1            | ^                |
 | output   | [28 :0]  | icache_if_ifdp_tag_data0           | ^                |
 | output   | [28 :0]  | icache_if_ifdp_tag_data1           | ^                |
-| output   | [28 :0]  | icache_if_ipb_tag_data0            | ^                |
-| output   | [28 :0]  | icache_if_ipb_tag_data1            | ^                |
