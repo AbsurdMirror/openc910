@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="4580" height="4740" viewBox="0 0 4580 4740">
+<defs>
+</defs>
+<rect x="50" y="50" width="4480" height="4640" fill="white" stroke="black" />
+<text x="2290.0" y="210" font-size="160" text-anchor="middle" dominant-baseline="middle">ct_ifu_top</text>
+<rect x="1490" y="530" width="1600" height="3840" fill="white" stroke="black" />
+<text x="2290.0" y="540" font-size="80" text-anchor="middle" dominant-baseline="hanging">x_ct_ifu_ipb</text>
+<path d="M50,720.0 L1490,720.0" stroke="blue" />
+<path d="M1465.0,693.3333333333334 L1490,720.0 L1465.0,746.6666666666666" stroke="blue" />
+<text x="1500" y="720.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">biu_ifu_rd_data</text>
+<path d="M50,800.0 L1490,800.0" stroke="blue" />
+<path d="M1465.0,773.3333333333334 L1490,800.0 L1465.0,826.6666666666666" stroke="blue" />
+<text x="1500" y="800.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">biu_ifu_rd_data_vld</text>
+<path d="M50,880.0 L1490,880.0" stroke="blue" />
+<path d="M1465.0,853.3333333333334 L1490,880.0 L1465.0,906.6666666666666" stroke="blue" />
+<text x="1500" y="880.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">biu_ifu_rd_grnt</text>
+<path d="M50,960.0 L1490,960.0" stroke="blue" />
+<path d="M1465.0,933.3333333333334 L1490,960.0 L1465.0,986.6666666666666" stroke="blue" />
+<text x="1500" y="960.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">biu_ifu_rd_id</text>
+<path d="M50,1040.0 L1490,1040.0" stroke="blue" />
+<path d="M1465.0,1013.3333333333334 L1490,1040.0 L1465.0,1066.6666666666667" stroke="blue" />
+<text x="1500" y="1040.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">biu_ifu_rd_last</text>
+<path d="M50,1120.0 L1490,1120.0" stroke="blue" />
+<path d="M1465.0,1093.3333333333333 L1490,1120.0 L1465.0,1146.6666666666667" stroke="blue" />
+<text x="1500" y="1120.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">biu_ifu_rd_resp</text>
+<path d="M50,1200.0 L1490,1200.0" stroke="blue" />
+<path d="M1465.0,1173.3333333333333 L1490,1200.0 L1465.0,1226.6666666666667" stroke="blue" />
+<text x="1500" y="1200.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">cp0_ifu_icache_pref_en</text>
+<path d="M50,1280.0 L1490,1280.0" stroke="blue" />
+<path d="M1465.0,1253.3333333333333 L1490,1280.0 L1465.0,1306.6666666666667" stroke="blue" />
+<text x="1500" y="1280.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">cp0_ifu_icg_en</text>
+<path d="M50,1360.0 L1490,1360.0" stroke="blue" />
+<path d="M1465.0,1333.3333333333333 L1490,1360.0 L1465.0,1386.6666666666667" stroke="blue" />
+<text x="1500" y="1360.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">cp0_ifu_insde</text>
+<path d="M50,1440.0 L1490,1440.0" stroke="blue" />
+<path d="M1465.0,1413.3333333333333 L1490,1440.0 L1465.0,1466.6666666666667" stroke="blue" />
+<text x="1500" y="1440.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">cp0_yy_clk_en</text>
+<path d="M50,1520.0 L1490,1520.0" stroke="blue" />
+<path d="M1465.0,1493.3333333333333 L1490,1520.0 L1465.0,1546.6666666666667" stroke="blue" />
+<text x="1500" y="1520.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">cpurst_b</text>
+<path d="M50,1600.0 L1490,1600.0" stroke="blue" />
+<path d="M1465.0,1573.3333333333333 L1490,1600.0 L1465.0,1626.6666666666667" stroke="blue" />
+<text x="1500" y="1600.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">forever_cpuclk</text>
+<path d="M50,1680.0 L1490,1680.0" stroke="blue" />
+<path d="M1465.0,1653.3333333333333 L1490,1680.0 L1465.0,1706.6666666666667" stroke="blue" />
+<text x="1500" y="1680.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">pad_yy_icg_scan_en</text>
+<path d="M50,1760.0 L1490,1760.0" stroke="black" />
+<path d="M75.0,1786.6666666666667 L50,1760.0 L75.0,1733.3333333333333" stroke="black" />
+<text x="1500" y="1760.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_r_ready</text>
+<path d="M50,1840.0 L1490,1840.0" stroke="black" />
+<path d="M75.0,1866.6666666666667 L50,1840.0 L75.0,1813.3333333333333" stroke="black" />
+<text x="1500" y="1840.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_addr</text>
+<path d="M50,1920.0 L1490,1920.0" stroke="black" />
+<path d="M75.0,1946.6666666666667 L50,1920.0 L75.0,1893.3333333333333" stroke="black" />
+<text x="1500" y="1920.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_burst</text>
+<path d="M50,2000.0 L1490,2000.0" stroke="black" />
+<path d="M75.0,2026.6666666666667 L50,2000.0 L75.0,1973.3333333333333" stroke="black" />
+<text x="1500" y="2000.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_cache</text>
+<path d="M50,2080.0 L1490,2080.0" stroke="black" />
+<path d="M75.0,2106.6666666666665 L50,2080.0 L75.0,2053.3333333333335" stroke="black" />
+<text x="1500" y="2080.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_domain</text>
+<path d="M50,2160.0 L1490,2160.0" stroke="black" />
+<path d="M75.0,2186.6666666666665 L50,2160.0 L75.0,2133.3333333333335" stroke="black" />
+<text x="1500" y="2160.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_id</text>
+<path d="M50,2240.0 L1490,2240.0" stroke="black" />
+<path d="M75.0,2266.6666666666665 L50,2240.0 L75.0,2213.3333333333335" stroke="black" />
+<text x="1500" y="2240.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_len</text>
+<path d="M50,2320.0 L1490,2320.0" stroke="black" />
+<path d="M75.0,2346.6666666666665 L50,2320.0 L75.0,2293.3333333333335" stroke="black" />
+<text x="1500" y="2320.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_prot</text>
+<path d="M50,2400.0 L1490,2400.0" stroke="black" />
+<path d="M75.0,2426.6666666666665 L50,2400.0 L75.0,2373.3333333333335" stroke="black" />
+<text x="1500" y="2400.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_req</text>
+<path d="M50,2480.0 L1490,2480.0" stroke="black" />
+<path d="M75.0,2506.6666666666665 L50,2480.0 L75.0,2453.3333333333335" stroke="black" />
+<text x="1500" y="2480.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_req_gate</text>
+<path d="M50,2560.0 L1490,2560.0" stroke="black" />
+<path d="M75.0,2586.6666666666665 L50,2560.0 L75.0,2533.3333333333335" stroke="black" />
+<text x="1500" y="2560.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_size</text>
+<path d="M50,2640.0 L1490,2640.0" stroke="black" />
+<path d="M75.0,2666.6666666666665 L50,2640.0 L75.0,2613.3333333333335" stroke="black" />
+<text x="1500" y="2640.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_snoop</text>
+<path d="M50,2720.0 L1490,2720.0" stroke="black" />
+<path d="M75.0,2746.6666666666665 L50,2720.0 L75.0,2693.3333333333335" stroke="black" />
+<text x="1500" y="2720.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">ifu_biu_rd_user</text>
+<rect x="370" y="3150" width="800" height="220" fill="white" stroke="black" />
+<text x="770.0" y="3260.0" font-size="80" text-anchor="middle" dominant-baseline="middle">x_ct_ifu_pcgen</text>
+<path d="M1170,3260.0 L1490,3260.0" stroke="blue" />
+<path d="M1465.0,3233.3333333333335 L1490,3260.0 L1465.0,3286.6666666666665" stroke="blue" />
+<text x="1500" y="3260.0" font-size="40.0" text-anchor="start" dominant-baseline="middle">pcgen_ipb_chgflw</text>
+<rect x="3410" y="610" width="800" height="540" fill="white" stroke="black" />
+<text x="3810.0" y="880.0" font-size="80" text-anchor="middle" dominant-baseline="middle">x_ct_ifu_icache_if</text>
+<path d="M3410,720.0 L3090,720.0" stroke="blue" />
+<path d="M3115.0,746.6666666666666 L3090,720.0 L3115.0,693.3333333333334" stroke="blue" />
+<text x="3080" y="720.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">icache_if_ipb_tag_data0</text>
+<path d="M3410,800.0 L3090,800.0" stroke="blue" />
+<path d="M3115.0,826.6666666666666 L3090,800.0 L3115.0,773.3333333333334" stroke="blue" />
+<text x="3080" y="800.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">icache_if_ipb_tag_data1</text>
+<path d="M3410,880.0 L3090,880.0" stroke="black" />
+<path d="M3385.0,853.3333333333334 L3410,880.0 L3385.0,906.6666666666666" stroke="black" />
+<text x="3080" y="880.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_icache_if_index</text>
+<path d="M3410,960.0 L3090,960.0" stroke="black" />
+<path d="M3385.0,933.3333333333334 L3410,960.0 L3385.0,986.6666666666666" stroke="black" />
+<text x="3080" y="960.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_icache_if_req</text>
+<path d="M3410,1040.0 L3090,1040.0" stroke="black" />
+<path d="M3385.0,1013.3333333333334 L3410,1040.0 L3385.0,1066.6666666666667" stroke="black" />
+<text x="3080" y="1040.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_icache_if_req_for_gateclk</text>
+<rect x="3410" y="1470" width="800" height="380" fill="white" stroke="black" />
+<text x="3810.0" y="1660.0" font-size="80" text-anchor="middle" dominant-baseline="middle">x_ct_ifu_ifctrl</text>
+<path d="M3410,1580.0 L3090,1580.0" stroke="blue" />
+<path d="M3115.0,1606.6666666666667 L3090,1580.0 L3115.0,1553.3333333333333" stroke="blue" />
+<text x="3080" y="1580.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ifctrl_ipb_inv_on</text>
+<path d="M3410,1660.0 L3090,1660.0" stroke="blue" />
+<path d="M3115.0,1686.6666666666667 L3090,1660.0 L3115.0,1633.3333333333333" stroke="blue" />
+<text x="3080" y="1660.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ifu_no_op_req</text>
+<path d="M3410,1740.0 L3090,1740.0" stroke="black" />
+<path d="M3385.0,1713.3333333333333 L3410,1740.0 L3385.0,1766.6666666666667" stroke="black" />
+<text x="3080" y="1740.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_ifctrl_prefetch_idle</text>
+<rect x="3410" y="2170" width="800" height="300" fill="white" stroke="black" />
+<text x="3810.0" y="2320.0" font-size="80" text-anchor="middle" dominant-baseline="middle">x_ct_ifu_debug</text>
+<path d="M3410,2280.0 L3090,2280.0" stroke="black" />
+<path d="M3385.0,2253.3333333333335 L3410,2280.0 L3385.0,2306.6666666666665" stroke="black" />
+<text x="3080" y="2280.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_debug_req_cur_st</text>
+<path d="M3410,2360.0 L3090,2360.0" stroke="black" />
+<path d="M3385.0,2333.3333333333335 L3410,2360.0 L3385.0,2386.6666666666665" stroke="black" />
+<text x="3080" y="2360.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_debug_wb_cur_st</text>
+<rect x="3410" y="2790" width="800" height="1580" fill="white" stroke="black" />
+<text x="3810.0" y="3580.0" font-size="80" text-anchor="middle" dominant-baseline="middle">x_ct_ifu_l1_refill</text>
+<path d="M3410,2900.0 L3090,2900.0" stroke="blue" />
+<path d="M3115.0,2926.6666666666665 L3090,2900.0 L3115.0,2873.3333333333335" stroke="blue" />
+<text x="3080" y="2900.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_bufferable</text>
+<path d="M3410,2980.0 L3090,2980.0" stroke="blue" />
+<path d="M3115.0,3006.6666666666665 L3090,2980.0 L3115.0,2953.3333333333335" stroke="blue" />
+<text x="3080" y="2980.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_cacheable</text>
+<path d="M3410,3060.0 L3090,3060.0" stroke="blue" />
+<path d="M3115.0,3086.6666666666665 L3090,3060.0 L3115.0,3033.3333333333335" stroke="blue" />
+<text x="3080" y="3060.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_ctc_inv</text>
+<path d="M3410,3140.0 L3090,3140.0" stroke="blue" />
+<path d="M3115.0,3166.6666666666665 L3090,3140.0 L3115.0,3113.3333333333335" stroke="blue" />
+<text x="3080" y="3140.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_machine_mode</text>
+<path d="M3410,3220.0 L3090,3220.0" stroke="blue" />
+<path d="M3115.0,3246.6666666666665 L3090,3220.0 L3115.0,3193.3333333333335" stroke="blue" />
+<text x="3080" y="3220.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_ppc</text>
+<path d="M3410,3300.0 L3090,3300.0" stroke="blue" />
+<path d="M3115.0,3326.6666666666665 L3090,3300.0 L3115.0,3273.3333333333335" stroke="blue" />
+<text x="3080" y="3300.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_pre_cancel</text>
+<path d="M3410,3380.0 L3090,3380.0" stroke="blue" />
+<path d="M3115.0,3406.6666666666665 L3090,3380.0 L3115.0,3353.3333333333335" stroke="blue" />
+<text x="3080" y="3380.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_refill_on</text>
+<path d="M3410,3460.0 L3090,3460.0" stroke="blue" />
+<path d="M3115.0,3486.6666666666665 L3090,3460.0 L3115.0,3433.3333333333335" stroke="blue" />
+<text x="3080" y="3460.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_req</text>
+<path d="M3410,3540.0 L3090,3540.0" stroke="blue" />
+<path d="M3115.0,3566.6666666666665 L3090,3540.0 L3115.0,3513.3333333333335" stroke="blue" />
+<text x="3080" y="3540.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_req_for_gateclk</text>
+<path d="M3410,3620.0 L3090,3620.0" stroke="blue" />
+<path d="M3115.0,3646.6666666666665 L3090,3620.0 L3115.0,3593.3333333333335" stroke="blue" />
+<text x="3080" y="3620.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_req_pre</text>
+<path d="M3410,3700.0 L3090,3700.0" stroke="blue" />
+<path d="M3115.0,3726.6666666666665 L3090,3700.0 L3115.0,3673.3333333333335" stroke="blue" />
+<text x="3080" y="3700.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_secure</text>
+<path d="M3410,3780.0 L3090,3780.0" stroke="blue" />
+<path d="M3115.0,3806.6666666666665 L3090,3780.0 L3115.0,3753.3333333333335" stroke="blue" />
+<text x="3080" y="3780.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_supv_mode</text>
+<path d="M3410,3860.0 L3090,3860.0" stroke="blue" />
+<path d="M3115.0,3886.6666666666665 L3090,3860.0 L3115.0,3833.3333333333335" stroke="blue" />
+<text x="3080" y="3860.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_tsize</text>
+<path d="M3410,3940.0 L3090,3940.0" stroke="blue" />
+<path d="M3115.0,3966.6666666666665 L3090,3940.0 L3115.0,3913.3333333333335" stroke="blue" />
+<text x="3080" y="3940.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">l1_refill_ipb_vpc</text>
+<path d="M3410,4020.0 L3090,4020.0" stroke="black" />
+<path d="M3385.0,3993.3333333333335 L3410,4020.0 L3385.0,4046.6666666666665" stroke="black" />
+<text x="3080" y="4020.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_l1_refill_data_vld</text>
+<path d="M3410,4100.0 L3090,4100.0" stroke="black" />
+<path d="M3385.0,4073.3333333333335 L3410,4100.0 L3385.0,4126.666666666667" stroke="black" />
+<text x="3080" y="4100.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_l1_refill_grnt</text>
+<path d="M3410,4180.0 L3090,4180.0" stroke="black" />
+<path d="M3385.0,4153.333333333333 L3410,4180.0 L3385.0,4206.666666666667" stroke="black" />
+<text x="3080" y="4180.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_l1_refill_rdata</text>
+<path d="M3410,4260.0 L3090,4260.0" stroke="black" />
+<path d="M3385.0,4233.333333333333 L3410,4260.0 L3385.0,4286.666666666667" stroke="black" />
+<text x="3080" y="4260.0" font-size="40.0" text-anchor="end" dominant-baseline="middle">ipb_l1_refill_trans_err</text>
+</svg>
