@@ -369,6 +369,7 @@ module ct_ifu_pcgen(
 
   parameter PC_WIDTH = 40;
   // &Force("bus","ipctrl_pcgen_taken_pc",38,0); @28
+
 //==========================================================
 //                PC MUX of Change Flow
 //==========================================================
@@ -470,6 +471,7 @@ module ct_ifu_pcgen(
                                   {3{ifctrl_pcgen_reissue_pcload}} & if_pc[2:0]
                                 };
   assign pcgen_ifdp_inc_pc[PC_WIDTH-2:0] = inc_pc[PC_WIDTH-2:0];
+
 //==========================================================
 //                    IF Stage PC
 //==========================================================
@@ -970,6 +972,7 @@ module ct_ifu_pcgen(
                                                 vector_pcgen_pcload ||
                                                 rtu_ifu_chgflw_vld ||
                                                 iu_ifu_chgflw_vld;
+
 //==========================================================
 //                  Interface with L0 BTB
 //==========================================================
