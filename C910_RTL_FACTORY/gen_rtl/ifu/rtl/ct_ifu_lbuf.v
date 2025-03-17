@@ -1615,6 +1615,7 @@ module ct_ifu_lbuf(
   assign lbuf_cur_entry_num_clk_en = lbuf_flush ||
                                      lbuf_fill_state ||
                                      fill_state_enter;
+
 //==========================================================
 //                  Loop Record FIFO
 //==========================================================

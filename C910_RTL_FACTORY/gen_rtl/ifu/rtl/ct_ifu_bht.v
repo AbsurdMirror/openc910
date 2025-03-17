@@ -910,7 +910,7 @@ parameter PC_WIDTH = 40;
     //wr_buf update BHT should under following condition:
     //1.one conditional branch instruction checked in bju || 
     //2.any valid entry in write buffer &&
-    //3.no read request(include select array and predictarra y)
+    //3.no read request(include select array and predict array)
     assign bht_wr_buf_updt_vld_for_gateclk = (bju_check_updt_vld || bht_wr_buf_not_empty); 
     assign bht_wr_buf_updt_vld       = (bju_check_updt_vld || 
                                         bht_wr_buf_not_empty) && 
