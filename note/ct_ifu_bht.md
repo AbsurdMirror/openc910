@@ -22,7 +22,7 @@ bht中存在3个GHR值，分别是：
 - BJU_GHR
 
 其中，VGHR 和 RTU_GHR 是在bht中维护的，而BJU_GHR是从bju传递来的信号(iu_ifu_chk_idx)。
-BJU_GHR的来源在本节不做详细讲解，本节重点讲解VGHR和RTU_GHR的更新和用途，同时讲解bht对外输出的GHR信号。
+BJU_GHR是从IFU将分支指令的预测结果和ghr值传递过去，具体细节不做描述。本节重点讲解VGHR和RTU_GHR的更新和用途，同时讲解bht对外输出的GHR信号。
 
 ### 3.1 VGHR
 
@@ -74,14 +74,6 @@ BJU_GHR的来源在本节不做详细讲解，本节重点讲解VGHR和RTU_GHR�
   end
 
   // &CombBeg; @278
-  always @( rtu_ifu_retire2_condbr_taken
-        or rtu_ifu_retire1_condbr
-        or rtu_ifu_retire0_condbr_taken
-        or rtughr_reg[21:0]
-        or rtu_ifu_retire1_condbr_taken
-        or rtu_ifu_retire2_condbr
-        or rtu_ifu_retire0_condbr)
-  begin
   case({rtu_ifu_retire0_condbr, rtu_ifu_retire1_condbr, rtu_ifu_retire2_condbr})
     3'b000  : rtughr_pre[21:0] =  rtughr_reg[21:0];
     3'b001  : rtughr_pre[21:0] = {rtughr_reg[20:0], rtu_ifu_retire2_condbr_taken};
@@ -99,7 +91,6 @@ BJU_GHR的来源在本节不做详细讲解，本节重点讲解VGHR和RTU_GHR�
     default : rtughr_pre[21:0] =  rtughr_reg[21:0];
   endcase
   // &CombEnd; @295
-  end
 ```
 
 当有指令退休时，根据指令是否为条件分支指令以及是否跳转，更新RTU_GHR。可以看出每个周期最多退休3条指令。
@@ -108,7 +99,24 @@ BJU_GHR的来源在本节不做详细讲解，本节重点讲解VGHR和RTU_GHR�
 
 ### 3.3 对外输出的GHR信号
 
+| 信号名 | 位宽 | 信号生成 | 说明 |
+| :--: | :--: | :-- | :-- |
+| bht_ind_btb_rtu_ghr | 8bit | rtughr_reg[7:0]直接输出 | 给ind_btb的RTU_GHR值，用于IND_BTB的预测 |
+| bht_ind_btb_vghr | 8bit | vghr_reg[7:0]直接输出 | 给ind_btb的VGHR值，用于IND_BTB的预测 |
+| bht_ipdp_vghr | 22bit | 信号的生成逻辑与vghr相同，但是寄存器浸在pipedown&时改更新值 |预测的指令的ghr值，将会伴随预测结果逐级传递到BJU，用于预测结果出错时对ghr恢复 |
+| bht_lbuf_vghr | 22bit | vghr_reg直接输出 | 给lbuf的VGHR值，用于LBUF的分支指令跳转方向预测 |
+
 ## 4. Array update
+
+BHT中存在两个array，分别是：
+
+- predict_array
+- select_array
+
+它们是单端口SRAM，不能同时读写，读的优先级高于写（为什么这么设计？）
+
+
+
 
 ## 5. Sel Array Read
 
